@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="7"
+    android:padding="20sp"
+    android:background="#683c91"
+    tools:context="com.example.nz.tableview.MainActivity">
+
+ <TableRow
+
+     android:id="@+id/rowOne"
+     android:background="#00b7ff"
+     android:layout_marginTop="10sp"
+
+     >
+     <TextView
+         android:layout_span="4"
+         android:layout_gravity="center_horizontal"
+         android:text="Student Details"
+         android:padding="10sp"
+         android:textSize="25sp"
+         android:textStyle="bold"
+
+         />
+ </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="15sp"
+        android:id="@+id/rowTwo"
+        android:background="#003cff"
+        >
+
+        <TextView
+
+            android:text="ID"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+
+            android:text="Name"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Dep"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Sem"
+
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:id="@+id/rowThree"
+        android:background="#8a98e9"
+        >
+
+        <TextView
+            android:text="001 "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text=" Nahid"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Computer"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text=" 8th "
+
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10sp"
+        android:id="@+id/rowFour"
+        android:background="#b2dae4"
+        >
+
+        <TextView
+            android:text="002 "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text=" Noman"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Architure"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:text=" 5th "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow
+        android:padding="10sp"
+        android:layout_marginTop="10sp"
+        >
+        <Button
+            android:layout_column="1"
+            android:text="Button One"
+            />
+        <Button
+
+            android:text="Button Two"
+
+            />
+
+
+    </TableRow>
+
+
+
+</TableLayout>
